@@ -1,4 +1,4 @@
-﻿# AI Assistant plugin for STE Slicer — Team Aurora
+﻿# AI Assistant plugin for STE Slicer - Team Aurora
 
 Интеллектуальный плагин для слайсера STE Slicer (Stereotech), обеспечивающий автоподбор параметров FDM 3D/5D-печати на базе LLM и MCP-инструментов.
 
