@@ -1,0 +1,9 @@
+﻿{
+  "api": 7,
+  "name": "AI Slicer Assistant - Aurora",
+  "version": "1.0.0",
+  "description": "Интеллектуальный помощник для автоподбора параметров FDM 3D/5D-печати",
+  "author": "aurora",
+  "website": "https://github.com/your_username/aurora-ste-plugin",
+  "i18n-catalog": ""
+}
