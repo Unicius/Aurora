@@ -1,17 +1,3 @@
-"""
-KILLER FEATURE — AI Stress Heatmap & Adaptive Infill
-
-Workflow:
-  1. Load STL via trimesh
-  2. Compute per-face stress proxy:
-       • Face normal vs load vector alignment  (70% weight)
-       • Discrete mean curvature at vertices   (30% weight)
-  3. Classify faces: high / medium / low stress zones
-  4. Build adaptive infill profile by Z-layer slabs
-  5. Recommend optimal print orientation (align layers with load)
-  6. Return color-coded heatmap data + material/time savings estimate
-"""
-
 from typing import Optional, List
 
 try:
