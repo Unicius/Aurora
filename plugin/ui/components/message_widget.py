@@ -1,10 +1,3 @@
-"""
-Chat message widgets — PyQt5 version.
-
-MessageWidget  — a single chat bubble (user | agent | error)
-ToolCallBadge  — inline status pill shown while the agent executes a tool
-"""
-
 from PyQt5.QtWidgets import QFrame, QHBoxLayout, QVBoxLayout, QLabel, QSizePolicy
 from PyQt5.QtCore import Qt
 
