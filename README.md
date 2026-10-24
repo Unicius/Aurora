@@ -205,11 +205,3 @@ results/
 | `trimesh` fallback данные | STL-файл не найден — передайте корректный путь |
 
 ---
-
-## Технологии
-
-- **LLM**: OpenAI-compatible API (GPT-4o / любая совместимая модель)
-- **Function Calling / MCP**: 9 инструментов для управления слайсером
-- **FEA**: trimesh + numpy (стресс-прокси по нормалям и кривизне)
-- **UI**: PyQt6 (встроен в Cura/STE Slicer framework)
-- **Async**: QThread — UI никогда не замерзает
