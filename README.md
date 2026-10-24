@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿# Aurora — AI Print Assistant для STE Slicer
+=======
+﻿# AI Assistant plugin for STE Slicer - Team Aurora
+>>>>>>> 7ad0d8fcbc4906b536602fa1cf812d197424a85f
 
 > Интеллектуальный плагин для слайсера STE Slicer (Stereotech).  
 > LLM автоматически подбирает параметры FDM 3D/5D-печати, анализирует STL-геометрию, строит тепловую карту напряжений и запускает слайсинг.
