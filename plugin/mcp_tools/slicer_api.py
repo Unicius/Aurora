@@ -1,14 +1,3 @@
-﻿"""
-STE Slicer API wrapper — verified against STE-Slicer-master source.
-
-Key facts from source:
-  • Framework:  PyQt5 (not PyQt6)
-  • Print mode: setting key = "printing_mode", values = "classic" (3D) | "cylindrical" (5D)
-  • Load model: UM.Mesh.ReadMeshJob
-  • Force slice: Application.getInstance().getBackend().forceSlice()
-  • Setting set: stack.setProperty(key, "value", value)
-"""
-
 import os
 from typing import Optional, List, Dict
 
