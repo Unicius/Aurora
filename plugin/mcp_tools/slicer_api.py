@@ -13,3 +13,5 @@
         """Переключение между 3D и 5D режимом"""
         print(f"[STE Slicer API] Print mode changed to: {mode}")
         return True
+
+#slicer_api
