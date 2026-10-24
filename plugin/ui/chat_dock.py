@@ -1,14 +1,3 @@
-﻿"""
-Aurora AI Assistant — main plugin UI for STE Slicer.
-
-Architecture (matching STE Slicer source patterns):
-  • class AuroraPlugin(QObject, Extension)  — the plugin object
-  • Opens a floating QWidget window (not QDockWidget, not QML)
-  • addMenuItem → shows/hides the chat window
-  • AgentWorker runs in a QThread — UI never freezes
-  • Uses PyQt5 (STE Slicer ships with PyQt5)
-"""
-
 import os
 import traceback
 from typing import List, Optional
